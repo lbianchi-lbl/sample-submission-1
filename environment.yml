@@ -1,0 +1,9 @@
+name: usrse24
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyterlab=3.4.8
+  - matplotlib
+  - numpy
