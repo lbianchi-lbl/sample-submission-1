@@ -14,3 +14,4 @@ jobs:
       repository: ${{ github.repository }}
       ref: ${{ github.sha }}
       reproducible-document: my_doc.ipynb
+      binder-cache-branch: binder-cache
