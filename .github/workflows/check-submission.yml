@@ -9,5 +9,6 @@ jobs:
     with:
       repository: ${{ github.repository }}
       ref: ${{ github.sha }}
-      reproducible-document: my_doc.ipynb
       binder-cache-branch: binder-cache
+      build-artifacts: |
+        my_doc.html
