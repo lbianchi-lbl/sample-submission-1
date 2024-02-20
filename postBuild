@@ -3,5 +3,5 @@
 set -e
 set -o pipefail
 
-wget -q0- https://raw.githubusercontent.com/lbianchi-lbl/notebooks-ci/main/install-quarto.sh | bash -s
+wget -qO- https://raw.githubusercontent.com/lbianchi-lbl/notebooks-ci/main/install-quarto.sh | bash -s
 quarto render my_doc.ipynb --to html -M self-contained:true --execute
