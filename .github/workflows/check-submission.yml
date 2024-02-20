@@ -8,7 +8,8 @@ jobs:
     # uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@05f445563ef2cf10c6293e709a98efa4c22ba55f
     # uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@69f099f92fca94e7261e16cd316134d8424ba983
     # uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@87723b2a9587c57dfd69ea0739a28295876cd666
-    uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@637a7ee7c1242f42873a6105ed7122d173cb4263
+    # uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@637a7ee7c1242f42873a6105ed7122d173cb4263
+    uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@82aefc702a6dc9ae67d61088c3ea5f7491048800
     # uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@
     with:
       repository: ${{ github.repository }}
