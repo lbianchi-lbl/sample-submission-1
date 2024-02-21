@@ -4,4 +4,4 @@ set -e
 set -o pipefail
 
 quarto render my_doc.ipynb --to html -M self-contained:true --execute
-exec "$0"
+exec "$@"
