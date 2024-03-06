@@ -5,7 +5,7 @@ on:
 
 jobs:
   check-submission:
-    uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@75690b81d05a8f30e6403ac42c0cccb1328d2684
+    uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@6c2c178daf7460c34d7e6d01b179da717bad4cc1
     with:
       repository: ${{ github.repository }}
       ref: ${{ github.sha }}
