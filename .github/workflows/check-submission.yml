@@ -5,7 +5,7 @@ on:
 
 jobs:
   check-submission:
-    uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@90be59ad6ded9caed79470b69149b87ad3812a98
+    uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@45812e35719318b50a5e811a32c715c432aa4129
     with:
       notebook: my_doc.ipynb
       repository: ${{ github.repository }}
