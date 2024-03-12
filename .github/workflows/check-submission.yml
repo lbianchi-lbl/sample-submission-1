@@ -7,6 +7,7 @@ jobs:
   check-submission:
     uses: lbianchi-lbl/notebooks-ci/.github/workflows/check-submission.yml@894c856ab8dfc8fd36bc9577767de0276f26dc04
     with:
+      notebook: my_doc.ipynb
       repository: ${{ github.repository }}
       ref: ${{ github.sha }}
       binder-cache-branch: binder-cache
