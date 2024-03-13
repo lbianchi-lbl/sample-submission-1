@@ -5,7 +5,7 @@ on:
 
 jobs:
   check-submission:
-    uses: USRSE/notebooks-submissions/.github/workflows/check-submission.yml@642ad2c08b178c131ee7b11af22aaaa323ba61a6
+    uses: USRSE/notebooks-submissions/.github/workflows/check-submission.yml@v1.0.0b1
     with:
       notebook: my_doc.ipynb
       repository: ${{ github.repository }}
